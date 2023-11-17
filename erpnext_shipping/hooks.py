@@ -16,7 +16,10 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_shipping/css/erpnext_shipping.css"
-# app_include_js = "/assets/erpnext_shipping/js/erpnext_shipping.js"
+#app_include_js = "/assets/erpnext_shipping/js/shipment.min.js"
+app_include_js = [
+	"shipment.bundle.js"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erpnext_shipping/css/erpnext_shipping.css"
